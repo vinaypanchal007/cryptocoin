@@ -157,132 +157,132 @@ function Home() {
           </button>
         </div>
       </div>
-      <div class="bg-blue-600 text-white text-center py-16">
-        <h2 class="text-3xl font-semibold">Get started in a few minutes</h2>
-        <p class="text-lg mt-2">Create an account, link your bank account, and start buying & selling.</p>
+      <div className="bg-blue-600 text-white text-center py-16">
+        <h2 className="text-3xl font-semibold">Get started in a few minutes</h2>
+        <p className="text-lg mt-2">Create an account, link your bank account, and start buying & selling.</p>
         
-        <button class="bg-white text-black font-semibold px-6 py-2 rounded-lg mt-6 shadow-md">
+        <button className="bg-white text-black font-semibold px-6 py-2 rounded-lg mt-6 shadow-md">
           Create account
         </button>
 
-        <div class="flex justify-center mt-12 space-x-12">
-          <div class="text-center">
-            <p class="text-4xl font-bold">$145B</p>
-            <p class="text-sm uppercase">Quarterly Volume Traded</p>
+        <div className="flex justify-center mt-12 space-x-12">
+          <div className="text-center">
+            <p className="text-4xl font-bold">$145B</p>
+            <p className="text-sm uppercase">Quarterly Volume Traded</p>
           </div>
-          <div class="text-center">
-            <p class="text-4xl font-bold">100+</p>
-            <p class="text-sm uppercase">Countries Supported</p>
+          <div className="text-center">
+            <p className="text-4xl font-bold">100+</p>
+            <p className="text-sm uppercase">Countries Supported</p>
           </div>
-          <div class="text-center">
-            <p class="text-4xl font-bold">$130B</p>
-            <p class="text-sm uppercase">Assets on Platform</p>
+          <div className="text-center">
+            <p className="text-4xl font-bold">$130B</p>
+            <p className="text-sm uppercase">Assets on Platform</p>
           </div>
         </div>
       </div>
-      <section class="py-16 bg-gray-100">
-        <h2 class="text-3xl text-center font-bold text-gray-900">The most trusted cryptocurrency exchange</h2>
-        <p class="text-lg text-center p-4 text-gray-600 mt-2">
+      <section className="py-16 bg-gray-100">
+        <h2 className="text-3xl text-center font-bold text-gray-900">The most trusted cryptocurrency exchange</h2>
+        <p className="text-lg text-center p-4 text-gray-600 mt-2">
           We're the most trusted place for people and businesses to buy, sell, and manage crypto.
         </p>
 
-        <div class="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto p-6">
-          <div class="bg-white p-6 shadow-md rounded-xl">
-            <div class="flex">
-              <img src={smallone} alt="Icon 1" class="w-20 h-20"/>
+        <div className="mt-10 grid gap-6 md:grid-cols-2 lg:grid-cols-4 max-w-6xl mx-auto p-6">
+          <div className="bg-white p-6 shadow-md rounded-xl">
+            <div className="flex">
+              <img src={smallone} alt="Icon 1" className="w-20 h-20"/>
             </div>
-            <h2 class="flex text-left text-2xl font-semibold text-gray-900 mt-4">The largest public crypto company</h2>
-            <p class="flex text-left text-lg text-gray-600 mt-2">We operate with financial transparency.</p>
+            <h2 className="flex text-left text-2xl font-semibold text-gray-900 mt-4">The largest public crypto company</h2>
+            <p className="flex text-left text-lg text-gray-600 mt-2">We operate with financial transparency.</p>
           </div>
 
-          <div class="bg-white p-6 shadow-md rounded-xl">
-            <div class="flex">
-              <img src={smalltwo} alt="Icon 2" class="w-20 h-20"/>
+          <div className="bg-white p-6 shadow-md rounded-xl">
+            <div className="flex">
+              <img src={smalltwo} alt="Icon 2" className="w-20 h-20"/>
             </div>
-            <h2 class="flex text-left text-2xl font-semibold text-gray-900 mt-4">Your assets are protected</h2>
-            <p class="flex text-left text-lg text-gray-600 mt-2">Our risk management measures are designed to protect your assets.</p>
+            <h2 className="flex text-left text-2xl font-semibold text-gray-900 mt-4">Your assets are protected</h2>
+            <p className="flex text-left text-lg text-gray-600 mt-2">Our risk management measures are designed to protect your assets.</p>
           </div>
 
-          <div class="bg-white p-6 shadow-md rounded-xl">
-            <div class="flex">
-              <img src={smallthree} alt="Icon 3" class="w-20 h-20"/>
+          <div className="bg-white p-6 shadow-md rounded-xl">
+            <div className="flex">
+              <img src={smallthree} alt="Icon 3" className="w-20 h-20"/>
             </div>
-            <h2 class="flex text-left text-2xl font-semibold text-gray-900 mt-4">Get the help you need, when you need it</h2>
-            <p class="flex text-left text-lg text-gray-600 mt-2">You can always contact our support team for quick solutions.</p>
+            <h2 className="flex text-left text-2xl font-semibold text-gray-900 mt-4">Get the help you need, when you need it</h2>
+            <p className="flex text-left text-lg text-gray-600 mt-2">You can always contact our support team for quick solutions.</p>
           </div>
 
-          <div class="bg-white p-6 shadow-md rounded-xl">
-            <div class="flex">
-              <img src={smallfour} alt="Icon 4" class="w-20 h-20"/>
+          <div className="bg-white p-6 shadow-md rounded-xl">
+            <div className="flex">
+              <img src={smallfour} alt="Icon 4" className="w-20 h-20"/>
             </div>
-            <h2 class="flex text-left text-2xl font-semibold text-gray-900 mt-4">Industry best practices</h2>
-            <p class="flex text-left text-lg text-gray-600 mt-2">Coinbase supports a variety of the most popular digital currencies.</p>
+            <h2 className="flex text-left text-2xl font-semibold text-gray-900 mt-4">Industry best practices</h2>
+            <p className="flex text-left text-lg text-gray-600 mt-2">Coinbase supports a variety of the most popular digital currencies.</p>
           </div>
         </div>
       </section>
 
-      <section class="py-12 px-6 bg-gray-100">
-        <div class="max-w-6xl mx-auto">
-        <div class="flex flex-row justify-between items-center">
-          <h2 class="text-3xl font-bold text-gray-900">
+      <section className="py-12 px-6 bg-gray-100">
+        <div className="max-w-6xl mx-auto">
+        <div className="flex flex-row justify-between items-center">
+          <h2 className="text-3xl font-bold text-gray-900">
             New to crypto? Learn some crypto basics
           </h2>
-          <button class="px-6 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700">
+          <button className="px-6 py-3 bg-blue-600 text-white font-semibold rounded-full hover:bg-blue-700">
             Read more
           </button>
         </div>
-          <p class="mt-4 text-left text-lg text-gray-600 max-w-2xl">
+          <p className="mt-4 text-left text-lg text-gray-600 max-w-2xl">
             Beginner guides, practical tips, and market updates for first-timers, experienced investors, and everyone in between.
           </p>
         </div>
 
-        <div class="mt-10 grid md:grid-cols-3 gap-6 bg-gray-100">
-          <div class="rounded-lg p-6 bg-gray-100">
-            <img src={one} alt="USDC" class="w-full h-48 object-cover rounded-md"/>
-            <h3 class="mt-4 text-2xl text-justify font-semibold text-gray-900">
+        <div className="mt-10 grid md:grid-cols-3 gap-6 bg-gray-100">
+          <div className="rounded-lg p-6 bg-gray-100">
+            <img src={one} alt="USDC" className="w-full h-48 object-cover rounded-md"/>
+            <h3 className="mt-4 text-2xl text-justify font-semibold text-gray-900">
               USDC: The digital dollar for the global crypto economy
             </h3>
-            <p class="mt-2 text-lg text-justify text-gray-600">
+            <p className="mt-2 text-lg text-justify text-gray-600">
               Coinbase believes crypto will be part of the solution for creating an open financial system...
             </p>
           </div>
 
-          <div class="rounded-lg p-6 bg-gray-100">
-            <img src={two} alt="Crypto and banks" class="w-full h-48 object-cover rounded-md"/>
-            <h3 class="mt-4 text-2xl font-semibold text-justify text-gray-900">
+          <div className="rounded-lg p-6 bg-gray-100">
+            <img src={two} alt="Crypto and banks" className="w-full h-48 object-cover rounded-md"/>
+            <h3 className="mt-4 text-2xl font-semibold text-justify text-gray-900">
               Can crypto really replace your bank account?
             </h3>
-            <p class="mt-2 text-gray-600 text-justify text-lg">
+            <p className="mt-2 text-gray-600 text-justify text-lg">
               If you’ve heard the phrase “bank on your own bank” or “bankless”...
             </p>
           </div>
 
-          <div class="rounded-lg p-6 bg-gray-100">
-            <img src={three} alt="Crypto investment" class="w-full h-48 object-cover rounded-md"/>
-            <h3 class="mt-4 text-2xl font-semibold text-justify text-gray-900">
+          <div className="rounded-lg p-6 bg-gray-100">
+            <img src={three} alt="Crypto investment" className="w-full h-48 object-cover rounded-md"/>
+            <h3 className="mt-4 text-2xl font-semibold text-justify text-gray-900">
               When is the best time to invest in crypto?
             </h3>
-            <p class="mt-2 text-gray-600 text-justify text-lg">
+            <p className="mt-2 text-gray-600 text-justify text-lg">
               Cryptocurrencies like Bitcoin can experience daily (or even hourly) price volatility...
             </p>
           </div>
         </div>
       </section>
-      <div class="flex flex-col md:flex-row items-center justify-between p-10 bg-white">
-        <div class="md:w-1/2 text-left">
-          <h2 class="text-4xl font-bold text-gray-900">
+      <div className="flex flex-col md:flex-row items-center justify-between p-10 bg-white">
+        <div className="md:w-1/2 text-left">
+          <h2 className="text-4xl font-bold text-gray-900">
             The freedom of crypto for everyone, everywhere
           </h2>
-          <p class="mt-4 text-gray-700">
+          <p className="mt-4 text-gray-700">
             We’re committed to creating more economic freedom through accessible, safe, and secure financial tools for everyone.
           </p>
-          <button class="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">
+          <button className="mt-6 px-6 py-3 bg-blue-600 text-white font-semibold rounded-lg hover:bg-blue-700">
             Learn more
           </button>
         </div>
 
-        <div class="md:w-1/2">
-          <img src={four} alt="People in a public space" class="w-full rounded-lg"/>
+        <div className="md:w-1/2">
+          <img src={four} alt="People in a public space" className="w-full rounded-lg"/>
         </div>
       </div>
       <div className="bg-gray-900 text-white py-16 px-8">
